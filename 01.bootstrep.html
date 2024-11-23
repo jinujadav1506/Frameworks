@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Perfect Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center align-items-center" style="height: 300px; background-color: #6c757d;">
+         <div> <h1 class="text-white">One more for good measure</h1> <br>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum et repellat cupiditate praesentium inventore atque cumque hic dolor beatae quod minus, in accusamus omnis optio earum! Voluptatem, molestias vel tempora cupiditate unde qui reprehenderit quaerat maiores vero aliquam autem optio eaque. Cum corporis tempore accusamus eius sint molestias, aspernatur laboriosam.</h4>
+            <button>click</button>
+        </div>
+           </div>
+
+       
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center align-items-center" style="height: 300px; background-color: #343a40;">
+          <h1 class="text-white">Another great slide</h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Features Section -->
+  <div class="container my-5">
+    <div class="row text-center">
+      <div class="col-lg-4">
+        <div class="bg-light rounded-circle mx-auto mb-3" style="width: 100px; height: 100px;"></div>
+        <h4>Heading 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-primary">View Details</button>
+      </div>
+      <div class="col-lg-4">
+        <div class="bg-light rounded-circle mx-auto mb-3" style="width: 100px; height: 100px;"></div>
+        <h4>Heading 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-primary">View Details</button>
+      </div>
+      <div class="col-lg-4">
+        <div class="bg-light rounded-circle mx-auto mb-3" style="width: 100px; height: 100px;"></div>
+        <h4>Heading 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-primary">View Details</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featurettes -->
+  <div class="container my-5">
+    <div class="row align-items-center mb-5">
+      <div class="col-md-7">
+        <h2 class="fw-bold">First Featurette Heading</h2>
+        <p class="text-muted">It’ll blow your mind. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-md-5">
+        <div class="bg-light" style="width: 100%; height: 300px;"></div>
+      </div>
+    </div>
+    <div class="row align-items-center mb-5">
+      <div class="col-md-5 order-md-2">
+        <div class="bg-light" style="width: 100%; height: 300px;"></div>
+      </div>
+      <div class="col-md-7 order-md-1">
+        <h2 class="fw-bold">Oh yeah, it's that good.</h2>
+        <p class="text-muted">See for yourself. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col-md-5">
+            <div class="bg-light" style="width: 100%; height: 300px;"></div>
+          </div>
+      <div class="col-md-7">
+        <h2 class="fw-bold">And lastly, this one.</h2>
+        <p class="text-muted">Checkmate. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2024 My Website. <a href="#" class="text-white text-decoration-underline">Privacy</a> | <a href="#" class="text-white text-decoration-underline">Terms</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
